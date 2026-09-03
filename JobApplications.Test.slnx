@@ -1,1 +1,6 @@
-<Solution />
+<Solution>
+  <Folder Name="/1-task/">
+    <Project Path="StringCompressor.Core/StringCompressor.Core.csproj" Id="aed715d6-90ad-4e44-a776-3c664e066e6f" />
+    <Project Path="StringCompressor.Tests/StringCompressor.Tests.csproj" Id="782764c3-fbe7-43ee-8335-79d26f11fb2c" />
+  </Folder>
+</Solution>
