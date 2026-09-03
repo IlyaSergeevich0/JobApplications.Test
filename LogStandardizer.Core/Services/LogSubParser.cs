@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace LogStandardizer.Core.Services;
 
-public sealed partial record class LogSubParser(Regex LogRegex, Func<Match, LogEntry> EntryFactory)
+public sealed record class LogSubParser(Regex LogRegex, Func<Match, LogEntry> EntryFactory)
 {
     public static LogSubParser CreateStandardFormat1Parser()
     {
