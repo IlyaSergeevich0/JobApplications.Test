@@ -2,14 +2,13 @@
 
 namespace LogStandardizer.Core.Models;
 
-public sealed class LogEntry
+public sealed record class LogEntry(
+    DateTime Date,
+    string Time,
+    LogLevel Level,
+    string? Method,
+    string Message)
 {
-    public required DateTime Date { get; set; }
-    public required string Time { get; set; }
-    public required LogLevel Level { get; set; }
-    public required string? Method { get; set; }
-    public required string Message { get; set; }
-
     public string ToStandardizedString()
     {
         var method = string.IsNullOrEmpty(Method) ? "DEFAULT" : Method;
