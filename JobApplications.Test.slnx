@@ -8,6 +8,7 @@
     <Project Path="Counter.Tests/Counter.Tests.csproj" Id="275b60ef-9243-4553-a1a4-6126101e3ea6" />
   </Folder>
   <Folder Name="/3-task/">
+    <Project Path="LogStandardizer.Console/LogStandardizer.Console.csproj" Id="628db5e5-f4d4-49d8-b0fe-fffbe0a409da" />
     <Project Path="LogStandardizer.Core/LogStandardizer.Core.csproj" Id="e791a215-5bdc-45f0-97e3-990fc1f83b30" />
     <Project Path="LogStandardizer.Tests/LogStandardizer.Tests.csproj" Id="1261cdfe-64e3-4bb2-8b0d-b1fdfe6717eb" />
   </Folder>
