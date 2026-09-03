@@ -1,8 +1,9 @@
 ﻿using LogStandardizer.Core.Services;
+using System.Reflection;
 
 if (args.Length < 2)
 {
-    Console.WriteLine("Usage: LogStandardizer <inputFile> <outputFile>");
+    Console.WriteLine($"Usage: {Path.GetFileName(Environment.ProcessPath)} <inputFile> <outputFile>");
     return;
 }
 
