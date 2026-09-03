@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace StringCompressor.Core;
 
-public static class StringCompressor
+public static class LengthEncoder
 {
     /// <summary>
     /// Алгоритм компрессии строки, замешающий группы последовательно идущих одинаковых букв формой "sc", где:
