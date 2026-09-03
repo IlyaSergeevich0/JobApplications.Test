@@ -54,7 +54,7 @@ public class LogParserTests
         Assert.AreEqual("15:14:51.5882", entry?.Time);
         Assert.AreEqual(LogLevel.INFO, entry?.Level);
         Assert.AreEqual("MobileComputer.GetDeviceId", entry?.Method);
-        Assert.AreEqual(" Код устройства: '@MINDEO-M40-D-410244015546'", entry?.Message);
+        Assert.AreEqual("Код устройства: '@MINDEO-M40-D-410244015546'", entry?.Message);
     }
 
     [Test]
