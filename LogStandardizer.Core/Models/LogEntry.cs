@@ -11,7 +11,7 @@ public sealed record class LogEntry(
 {
     public string ToStandardizedString()
     {
-        var method = string.IsNullOrEmpty(Method) ? "DEFAULT" : Method;
+        var method = string.IsNullOrWhiteSpace(Method) ? "DEFAULT" : Method;
         var levelStr = Level.ToString();
 
         return $"{Date:dd-MM-yyyy}\t{Time}\t{levelStr}\t{method}\t{Message}";
