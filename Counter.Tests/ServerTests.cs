@@ -82,10 +82,10 @@ public class ServerTests
 
         for (int i = 0; i < iterations; i++)
         {
-            if (rand.Next(2) == 0)            
-                tasks.Add(Task.Run(Server.GetCount));            
-            else            
-                tasks.Add(Task.Run(() => Server.AddToCount(1)));            
+            if (rand.Next(2) == 0)
+                tasks.Add(Task.Run(Server.GetCount));
+            else
+                tasks.Add(Task.Run(() => Server.AddToCount(1)));
         }
 
         Task.WaitAll([.. tasks]);
