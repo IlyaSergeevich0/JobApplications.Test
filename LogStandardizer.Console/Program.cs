@@ -1,5 +1,4 @@
 ﻿using LogStandardizer.Core.Services;
-using System.Reflection;
 
 if (args.Length < 2)
 {
